@@ -1,0 +1,8 @@
+@media screen and (orientation: landscape) {
+    body{
+        background-image: url(../background/pexels-pixabay-265722.jpg);
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
