@@ -29,7 +29,7 @@ main {
 }
 
 div.coraçao {
-    font-size: 30rem;
+    font-size: 23rem;
     background-color: transparent;
     color: red;
     animation: coraçao .5s infinite alternate linear;
