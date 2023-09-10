@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +10,23 @@
     <link rel="stylesheet" href="estilos/landscape.css" media="screen and (orientation: landscape)">
     <title>Coração animado</title>
 </head>
+
 <body>
-    <h1>Eu te Amo</h1>
-   <main>
+    <h1 id="titulo">Eu te Amo</h1>
+    <main>
 
-       <div class="coraçao">♥</div>
-   </main>
-    
+        <div class="coraçao">♥♥</div>
+    </main>
 
-    
-   
-    
+    <script>
+        let nome = window.prompt('Qual o seu nome ?');
+        console.log(nome);
+
+        let inserir_nome = document.getElementById('titulo');
+        inserir_nome.innerHTML = `Eu te amo ${nome}`;
+    </script>
+
+
 </body>
+
 </html>
